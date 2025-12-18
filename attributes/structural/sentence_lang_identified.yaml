@@ -1,0 +1,11 @@
+# Identified sentence language (ISO 639-3)
+
+label:
+  eng: sentence language (identified, ISO 639-3)
+  fin: virkkeen kieli (tunnistettu, ISO 639-3)
+  swe: meningens språk (identifierad, ISO 639-3)
+opts:
+  is: '='
+  is_not: '!='
+pattern: <%= funcs.makeLinkISO639_3(val) %>
+extended_component: structServiceSelect

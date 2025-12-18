@@ -1,0 +1,17 @@
+# Identified languages (ISO 639-3) in paragraph sentences
+
+label:
+  eng: identified languages in paragraph sentences (ISO 639-3)
+  fin: kappaleen virkkeiden tunnistetut kielet (ISO 639-3)
+  swe: identifierade språk i styckets meningar (ISO 639-3)
+type: set
+opts:
+  contains: incontains_contains
+  ends_with: ends_with_contains
+  is: contains
+  is_not: not contains
+  matches: regexp_contains
+  matches_not: not_regexp_contains
+  starts_with: starts_with_contains
+pattern: '<span data-key="<%= key %>"><%= funcs.makeLinkISO639_3(val.split(":")[0])
+  + ": " + val.split(":")[1] %></span>'

@@ -341,51 +341,9 @@ struct_attributes:
 - text_binding_id:
     display_type: hidden
     order: 18
-- text_sum_lang:
-    label:
-      eng: identified languages in text sentences (ISO 639-3)
-      fin: tekstin virkkeiden tunnistetut kielet (ISO 639-3)
-      swe: identifierade språk i textens meningar (ISO 639-3)
-    type: set
-    opts:
-      contains: incontains_contains
-      ends_with: ends_with_contains
-      is: contains
-      is_not: not contains
-      matches: regexp_contains
-      matches_not: not_regexp_contains
-      starts_with: starts_with_contains
-    pattern: '<span data-key="<%= key %>"><%= funcs.makeLinkISO639_3(val.split(":")[0])
-      + ": " + val.split(":")[1] %></span>'
-    order: 19
-- paragraph_sum_lang:
-    label:
-      eng: identified languages in paragraph sentences (ISO 639-3)
-      fin: kappaleen virkkeiden tunnistetut kielet (ISO 639-3)
-      swe: identifierade språk i styckets meningar (ISO 639-3)
-    type: set
-    opts:
-      contains: incontains_contains
-      ends_with: ends_with_contains
-      is: contains
-      is_not: not contains
-      matches: regexp_contains
-      matches_not: not_regexp_contains
-      starts_with: starts_with_contains
-    pattern: '<span data-key="<%= key %>"><%= funcs.makeLinkISO639_3(val.split(":")[0])
-      + ": " + val.split(":")[1] %></span>'
-    order: 21
-- sentence_lang:
-    label:
-      eng: sentence language (identified, ISO 639-3)
-      fin: virkkeen kieli (tunnistettu, ISO 639-3)
-      swe: meningens språk (identifierad, ISO 639-3)
-    opts:
-      is: '='
-      is_not: '!='
-    pattern: <%= funcs.makeLinkISO639_3(val) %>
-    extended_component: structServiceSelect
-    order: 23
+- text_sum_lang: text_sum_lang_identified
+- paragraph_sum_lang: paragraph_sum_lang_identified
+- sentence_lang: sentence_lang_identified
 - sentence_lang_conf:
     label:
       eng: sentence language identification confidence
