@@ -1,0 +1,13 @@
+# KLK page image URL, word context highlighted (custom attribute)
+
+display_type: hidden
+pattern: <a href="<%= funcs.makeKlkPageImageUrl({struct_attrs, pos_attrs, tokens},
+  2) %>" class="exturl sidebar_link" target="_blank"><span rel="localize[show_page_image_context]"></span></a>
+custom_type: struct
+hide_compare: true
+hide_extended: true
+hide_statistics: true
+url_opts:
+  hideUrl: true
+  inLinkSection: true
+  newWindow: true

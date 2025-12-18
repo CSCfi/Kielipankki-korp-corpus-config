@@ -1,0 +1,13 @@
+# KLK PDF download URL (custom attribute)
+
+display_type: hidden
+pattern: <a href="<%= funcs.makeKlkUrlBase({struct_attrs, pos_attrs, tokens})
+  %>/pdf" class="exturl sidebar_link" target="_blank"><span rel="localize[download_publ_pdf]"></span></a>
+custom_type: struct
+hide_compare: true
+hide_extended: true
+hide_statistics: true
+url_opts:
+  hideUrl: true
+  inLinkSection: true
+  newWindow: true
