@@ -7,5 +7,5 @@ label:
 opts:
   is: '='
   is_not: '!='
-pattern: <%= funcs.makeLinkISO639_3(val) %>
+stringify: langLink
 extended_component: structServiceSelect

@@ -13,5 +13,4 @@ opts:
   matches: regexp_contains
   matches_not: not_regexp_contains
   starts_with: starts_with_contains
-pattern: '<span data-key="<%= key %>"><%= funcs.makeLinkISO639_3(val.split(":")[0])
-  + ": " + val.split(":")[1] %></span>'
+stringify: sumLangLink
