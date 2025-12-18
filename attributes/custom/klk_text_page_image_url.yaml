@@ -1,9 +1,12 @@
 # KLK page image URL (custom attribute)
 
-display_type: hidden
-pattern: <a href="<%= funcs.makeKlkPageImageUrl({struct_attrs, pos_attrs, tokens},
-  0) %>" class="exturl sidebar_link" target="_blank"><span rel="localize[show_page_image]"></span></a>
+label:
+  eng: Show page image
+  fin: Näytä sivun kuva
+  swe: Visa originalsida
+sidebar_component: klkPageImageLink
 custom_type: struct
+sidebar_hide_label: true
 hide_compare: true
 hide_extended: true
 hide_statistics: true
