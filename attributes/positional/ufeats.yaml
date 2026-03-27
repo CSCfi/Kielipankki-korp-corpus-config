@@ -1,0 +1,12 @@
+label:
+  eng: morphological analysis
+  fin: morfologinen analyysi
+  swe: morfologisk analys
+opts:
+  contains: _=
+  is: '='
+  is_not: '!='
+  matches: '*='
+  matches_not: '!*='
+pattern: '<%= val.replace(/\|/g, ''|<wbr>'') %>'
+order: 3
