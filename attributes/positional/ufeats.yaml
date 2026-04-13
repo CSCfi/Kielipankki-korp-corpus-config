@@ -8,5 +8,5 @@ opts:
   is_not: '!='
   matches: '*='
   matches_not: '!*='
-pattern: '<%= val.split("|").join("<br>") %>'
+pattern: '<%= "<br>" + val.split("|").join("<br>") %>'
 order: 3
