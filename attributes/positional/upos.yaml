@@ -1,7 +1,7 @@
 label:
-  eng: UPOS
-  fin: UPOS
-  swe: UPOS
+  eng: part of speech
+  fin: sanaluokka
+  swe: ordklass
 opts:
   is: '='
   is_not: '!='
