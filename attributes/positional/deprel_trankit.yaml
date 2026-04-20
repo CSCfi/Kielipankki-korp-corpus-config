@@ -1,0 +1,56 @@
+label:
+  eng: dependency relation
+  fin: dependenssisuhde
+  swe: dependensrelation
+opts:
+  is: '='
+  is_not: '!='
+extended_component: datasetSelect
+dataset:
+  name: name
+  root: root
+  nsubj: nsubj
+  nsubj:pass: nsubj:pass
+  obj: obj
+  iobj: iobj
+  obl: obl
+  obl:agent: obl:agent
+  vocative: vocative
+  expl: expl
+  dislocated: dislocated
+  nmod: nmod
+  nmod:poss: nmod:poss
+  appos: appos
+  nummod: nummod
+  amod: amod
+  det: det
+  clf: clf
+  case: case
+  conj: conj
+  cc: cc
+  fixed: fixed
+  flat: flat
+  flat:name: flat:name
+  compound: compound
+  list: list
+  parataxis: parataxis
+  orphan: orphan
+  goeswith: goeswith
+  reparandum: reparandum
+  csubj: csubj
+  csubj:pass: csubj:pass
+  ccomp: ccomp
+  xcomp: xcomp
+  advcl: advcl
+  acl: acl
+  acl:relcl: acl:relcl
+  advmod: advmod
+  discourse: discourse
+  aux: aux
+  aux:pass: aux:pass
+  cop: cop
+  mark: mark
+  punct: punct
+  dep: dep
+  _: _
+order: 4
