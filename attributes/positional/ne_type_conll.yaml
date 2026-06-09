@@ -8,20 +8,23 @@ dataset:
 - ORG
 - LOC
 - MISC
+# Translation keys are 3-letter (eng/swe/fin) to match the Mink Korp language
+# codes (korp.languages in config_default.yaml). 2-letter keys (en/fi/sv), as
+# used by the main-KLK presets, resolve to undefined here and blank/crash the UI.
 translation:
   PER:
-    en: person
-    fi: henkilö
-    sv: person
+    eng: person
+    fin: henkilö
+    swe: person
   ORG:
-    en: organization
-    fi: organisaatio
-    sv: organisation
+    eng: organization
+    fin: organisaatio
+    swe: organisation
   LOC:
-    en: location
-    fi: paikka
-    sv: plats
+    eng: location
+    fin: paikka
+    swe: plats
   MISC:
-    en: miscellaneous
-    fi: muu
-    sv: övrigt
+    eng: miscellaneous
+    fin: muu
+    swe: övrigt

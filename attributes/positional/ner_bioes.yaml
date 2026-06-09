@@ -8,20 +8,23 @@ dataset:
 - I
 - E
 - S
+# Translation keys are 3-letter (eng/swe/fin) to match the Mink Korp language
+# codes (korp.languages in config_default.yaml). 2-letter keys (en/fi/sv), as
+# used by the main-KLK presets, resolve to undefined here and blank/crash the UI.
 translation:
   B:
-    en: beginning (B)
-    fi: alussa (B)
-    sv: början (B)
+    eng: beginning (B)
+    fin: alussa (B)
+    swe: början (B)
   I:
-    en: inside (I)
-    fi: sisällä (I)
-    sv: innanför (I)
+    eng: inside (I)
+    fin: sisällä (I)
+    swe: innanför (I)
   E:
-    en: ending (E)
-    fi: lopussa (E)
-    sv: slutet (E)
+    eng: ending (E)
+    fin: lopussa (E)
+    swe: slutet (E)
   S:
-    en: single (S)
-    fi: yksittäinen (S)
-    sv: enskilt (S)
+    eng: single (S)
+    fin: yksittäinen (S)
+    swe: enskilt (S)
