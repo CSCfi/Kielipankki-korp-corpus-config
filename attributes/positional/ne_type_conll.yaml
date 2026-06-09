@@ -1,0 +1,27 @@
+label:
+  eng: named entity type
+  fin: nimen tyyppi
+  swe: namntyp
+extended_component: datasetSelect
+dataset:
+- PER
+- ORG
+- LOC
+- MISC
+translation:
+  PER:
+    en: person
+    fi: henkilö
+    sv: person
+  ORG:
+    en: organization
+    fi: organisaatio
+    sv: organisation
+  LOC:
+    en: location
+    fi: paikka
+    sv: plats
+  MISC:
+    en: miscellaneous
+    fi: muu
+    sv: övrigt

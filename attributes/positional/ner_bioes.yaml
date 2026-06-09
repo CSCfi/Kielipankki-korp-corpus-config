@@ -1,0 +1,27 @@
+label:
+  eng: word position in a name
+  fin: sanan sijainti nimessä
+  swe: ordets läge i namnet
+extended_component: datasetSelect
+dataset:
+- B
+- I
+- E
+- S
+translation:
+  B:
+    en: beginning (B)
+    fi: alussa (B)
+    sv: början (B)
+  I:
+    en: inside (I)
+    fi: sisällä (I)
+    sv: innanför (I)
+  E:
+    en: ending (E)
+    fi: lopussa (E)
+    sv: slutet (E)
+  S:
+    en: single (S)
+    fi: yksittäinen (S)
+    sv: enskilt (S)
