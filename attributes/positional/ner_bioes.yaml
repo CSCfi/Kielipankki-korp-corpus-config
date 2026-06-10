@@ -1,7 +1,10 @@
 label:
-  eng: word position in a name
-  fin: sanan sijainti nimessä
-  swe: ordets läge i namnet
+  # "named entity ..." prefix so this sorts next to "named entity type" in the
+  # alphabetically-ordered extended-search dropdown (the value is the B/I/E/S
+  # position within the entity).
+  eng: named entity part
+  fin: nimen osa
+  swe: namndel
 extended_component: datasetSelect
 dataset:
 - B
