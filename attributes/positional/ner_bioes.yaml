@@ -1,0 +1,33 @@
+label:
+  # "named entity ..." prefix so this sorts next to "named entity type" in the
+  # alphabetically-ordered extended-search dropdown (the value is the B/I/E/S
+  # position within the entity).
+  eng: named entity part
+  fin: nimen osa
+  swe: namndel
+extended_component: datasetSelect
+dataset:
+- B
+- I
+- E
+- S
+# Translation keys are 3-letter (eng/swe/fin) to match the Mink Korp language
+# codes (korp.languages in config_default.yaml). 2-letter keys (en/fi/sv), as
+# used by the main-KLK presets, resolve to undefined here and blank/crash the UI.
+translation:
+  B:
+    eng: beginning (B)
+    fin: alussa (B)
+    swe: början (B)
+  I:
+    eng: inside (I)
+    fin: sisällä (I)
+    swe: innanför (I)
+  E:
+    eng: ending (E)
+    fin: lopussa (E)
+    swe: slutet (E)
+  S:
+    eng: single (S)
+    fin: yksittäinen (S)
+    swe: enskilt (S)

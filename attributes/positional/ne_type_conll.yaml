@@ -1,0 +1,30 @@
+label:
+  eng: named entity type
+  fin: nimen tyyppi
+  swe: namntyp
+extended_component: datasetSelect
+dataset:
+- PER
+- ORG
+- LOC
+- MISC
+# Translation keys are 3-letter (eng/swe/fin) to match the Mink Korp language
+# codes (korp.languages in config_default.yaml). 2-letter keys (en/fi/sv), as
+# used by the main-KLK presets, resolve to undefined here and blank/crash the UI.
+translation:
+  PER:
+    eng: person
+    fin: henkilö
+    swe: person
+  ORG:
+    eng: organization
+    fin: organisaatio
+    swe: organisation
+  LOC:
+    eng: location
+    fin: paikka
+    swe: plats
+  MISC:
+    eng: miscellaneous
+    fin: muu
+    swe: övrigt
